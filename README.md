@@ -1,78 +1,75 @@
-import React from "react";
-import styles from "./Portfolio.module.css";
+# Thapasya P - Resume Overview
 
-const projects = [
-  {
-    title: "Project One",
-    description: "A brief description of project one.",
-    link: "#",
-    image: "https://via.placeholder.com/300x200"
-  },
-  {
-    title: "Project Two",
-    description: "A brief description of project two.",
-    link: "#",
-    image: "https://via.placeholder.com/300x200"
-  },
-  // Add more projects as needed
-];
+## 📧 Contact Information
+- **Email:** kit26.eee305@gmail.com  
+- **Phone:** +91 94870 05055  
 
-export default function Portfolio() {
-  return (
-    <div className={styles.container}>
-      <header className={styles.header}>
-        <img
-          src="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
-          alt="Profile"
-          className={styles.profile}
-        />
-        <h1>Your Name</h1>
-        <p className={styles.subtitle}>Web Developer | Designer | Creator</p>
-        <nav className={styles.nav}>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+---
 
-      <section id="about" className={styles.section}>
-        <h2>About Me</h2>
-        <p>
-          I am a passionate web developer with experience in building modern web
-          applications. I love creating beautiful and functional user
-          experiences.
-        </p>
-      </section>
+## 🎯 Objective
+To have a growth-oriented and challenging career where I can contribute my knowledge and skills to the organization and enhance my experience through continuous learning and teamwork.
 
-      <section id="projects" className={styles.section}>
-        <h2>Projects</h2>
-        <div className={styles.projectsGrid}>
-          {projects.map((project, idx) => (
-            <div className={styles.projectCard} key={idx}>
-              <img src={project.image} alt={project.title} />
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                View Project
-              </a>
-            </div>
-          ))}
-        </div>
-      </section>
+---
 
-      <section id="contact" className={styles.section}>
-        <h2>Contact</h2>
-        <form className={styles.contactForm}>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Email Address" required />
-          <textarea placeholder="Your Message" required />
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
+## 🎓 Educational Qualifications
+- **B.E (Electrical and Electronics Engineering)**  
+  Kalaignar Karunanidhi Institute of Technology, Coimbatore — *7.36 CGPA*
 
-      <footer className={styles.footer}>
-        &copy; {new Date().getFullYear()} Your Name. All rights reserved.
-      </footer>
-    </div>
-  );
-}
+- **Diploma in Electrical and Electronics Engineering**  
+  Sri Ramakrishna Polytechnic College, Coimbatore — *84%*
+
+- **SSLC**  
+  Rajalakshmi Gengusamy Matriculation Higher Secondary School, Pathapampatti — *67%*
+
+---
+
+## 📚 Certifications & Courses
+- NPTEL Soft Skill Development Certificate
+- Infosys Online Certification Course
+- ISTE Ramanujam Level 2 Certification
+- Coursera Online Course
+- IEEE and IGEN Member
+
+---
+
+## 💼 Projects and Internships
+- **Internship** at Balaji Electronics, Coimbatore (15 days)
+- **Diploma Final Year Project:** IoT Based Attendance Monitoring System
+- **Inplant Training:** Web Development at CodeBind Technologies (1 week)
+- **Internship:** PCB Designing at Sunshiv Electronics
+- **Mini Project:** IoT and Embedded Based Smart Dustbin
+
+---
+
+## 🧑‍💻 Technical Skills
+- **MS Office**
+- **Multisim**
+- **MATLAB**
+- **Proteus**
+- **AutoCAD**
+- **Basic C Programming**
+
+---
+
+## 🔧 Area of Interest
+- Software Development  
+- Embedded Systems Development  
+- PCB Designing
+
+---
+
+## 🎯 Non-Technical Skills
+- Strong Communication Skills
+- Teamwork and Collaboration
+- Languages Known: Tamil, English, Telugu
+
+---
+
+## 🏆 Achievements
+- 4th Place in Polytechnic-level Carrom Journals
+- Runner-Up in School Carrom Journals
+
+---
+
+## 📌 Notes
+This README provides a summarized view of Thapasya P's resume for digital sharing or GitHub portfolio usage. Please refer to the full resume for detailed academic and project information.
